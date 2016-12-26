@@ -16,10 +16,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(logger('dev'));
 app.use(stylus.middleware({
-	src: './public',
+	src: path.join(__dirname,'./public'),
 	compress: true
 }));
-//app.use(express.static(__dirname + 'public'));
-
-//app.use(app.router);
-//get('/' ...); app.post(...);

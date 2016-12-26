@@ -12,4 +12,6 @@ try {
 	http.createServer(app).listen(port, function () {
 		console.log('Visit http://localhost:' + port + ' to begin yor work');
 	});
-} catch(err){console.log("Error = ",err);}
+} catch(err){
+	console.log("Error = ",err);
+}
