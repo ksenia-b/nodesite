@@ -13,12 +13,4 @@ app.set('view engine','jade');
 //Middleware
 app.use(logger('dev')); //app.use(express.logger('dev'));
 //app.use(app.router);
-//app.use(express.static(path.join(__dirname, 'public')));
-
-
-app.get('/', function(req,res){
-	res.send('Hello, world!')
-});
-
-
-//app.get('/' ...); app.post(...);
+//get('/' ...); app.post(...);

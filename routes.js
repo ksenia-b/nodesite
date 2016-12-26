@@ -1,6 +1,8 @@
 'use strict';
 
 var app = require('./app');
-var express=require('express');
 
-var app = module.exports = exports = express();
+app.get('/', function(req,res){
+	res.send('Hello, world!')
+});
+
