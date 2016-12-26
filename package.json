@@ -1,0 +1,23 @@
+{
+  "name": "nodesite2",
+  "version": "1.0.0",
+  "description": "Node.js node website template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksenia-b/nodesite.git"
+  },
+  "keywords": [
+    "static",
+    "site"
+  ],
+  "author": "Oksana B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksenia-b/nodesite/issues"
+  },
+  "homepage": "https://github.com/ksenia-b/nodesite#readme"
+}
