@@ -2,9 +2,9 @@
 
 var app = require('./app');
 
-app.get('/', function(req,res){
+app.get('/', function(req,res, next){
 	//res.send('Hello, world!')
-	res.render('pages/index');
+	// res.render('pages/index');
 	req.url = '/index.html';
 	next();
 });
