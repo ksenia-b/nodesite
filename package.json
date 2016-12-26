@@ -4,8 +4,9 @@
   "description": "Node.js node website template",
   "dependencies": {
     "express": "*",
-    "stylus": "*",
-    "jade": "*"
+    "jade": "*",
+    "morgan": "^1.7.0",
+    "stylus": "*"
   },
   "private": true,
   "main": "index.js",
@@ -25,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/ksenia-b/nodesite/issues"
   },
-  "homepage": "https://github.com/ksenia-b/nodesite#readme"
+  "homepage": "https://github.com/ksenia-b/nodesite#readme",
+  "devDependencies": {}
 }
